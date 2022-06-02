@@ -1,0 +1,9 @@
+Command is:
+ps aux > ./task3_file_processes_sorted_by_process_id.txt
+
+----
+
+ps - Linux program to display snapshot of running processes on time when program is executed
+aux - Program arguments to display: (a) for displaying all processes, (u) for displaying process owners, (x) to display background tasks
+> - to "pipe"/redirect output/stdout to file or program
+./task3_file_processes_sorted_by_process_id.txt - target file path that "piped" output will be written to this file
